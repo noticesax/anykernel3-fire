@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Welcome To The LMAO ...
+kernel.string=Welcome To The Eclipse ...
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -17,7 +17,7 @@ supported.patchlevels=
 
 # shell variables
 block=/dev/block/by-name/boot;
-is_slot_device=auto;
+is_slot_device=1;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
